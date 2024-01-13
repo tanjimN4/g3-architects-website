@@ -110,11 +110,12 @@ main {
     color: #FF900E;
     font-weight: 700;
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: space-between;
     padding: 0px 260px;
-   
+
 
 }
 
@@ -125,21 +126,41 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.card-stats{
+
+.card-stats {
     font-size: 2.8rem;
-    color:#424242 ;
+    color: #424242;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.card-title{
+
+.card-title {
     font-size: 1.6rem;
     color: #727272;
     font-weight: 600;
     margin-top: 5px;
 }
-.Facts-div{
+
+.Facts-div {
     padding: 0px 240px;
+}
+
+.Sponspors {
+    text-align: center;
+}
+
+.Sponspors-img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.Sponspors-img img {
+    width: 167px;
+    height: 50px;
 }
 
 
@@ -154,23 +175,30 @@ main {
         padding: 20px;
     }
 
-    nav{
+    nav {
         flex-direction: column;
     }
 
     .teams-img-container {
         grid-template-columns: 1fr;
     }
+
     .teams-container {
         flex-direction: column;
         padding: 0px 0px;
     }
-    .Facts-div{
+
+    .Facts-div {
         padding: 0px 0px;
     }
-    .card-container{
+
+    .card-container {
         flex-direction: column;
         padding: 0px 0px;
+    }
+
+    .Sponspors-img {
+        flex-direction: column;
     }
 
 }
@@ -188,5 +216,19 @@ main {
     nav,
     .teams-container {
         flex-direction: column;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px;
+    }
+
+    .teams-container {
+        padding: 0px 0px;
+    }
+
+    .Facts-div {
+        padding: 0px 162px;
     }
 }
