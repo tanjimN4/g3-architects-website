@@ -112,14 +112,18 @@ main {
 }
 .card-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 260px;
+   
+
 }
 
 .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align: center;
-    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .card-stats{
     font-size: 2.8rem;
@@ -134,6 +138,9 @@ main {
     font-weight: 600;
     margin-top: 5px;
 }
+.Facts-div{
+    padding: 0px 240px;
+}
 
 
 
@@ -147,13 +154,23 @@ main {
         padding: 20px;
     }
 
-    nav,
-    .teams-container {
+    nav{
         flex-direction: column;
     }
 
     .teams-img-container {
         grid-template-columns: 1fr;
+    }
+    .teams-container {
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    .Facts-div{
+        padding: 0px 0px;
+    }
+    .card-container{
+        flex-direction: column;
+        padding: 0px 0px;
     }
 
 }
