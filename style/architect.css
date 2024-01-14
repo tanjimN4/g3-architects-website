@@ -140,17 +140,29 @@ main {
     width: 300px;
     height: 200px;
     text-align: center;
+    position: relative;
+    bottom: 100px;
+
 }
-.ten-years h2{
+
+.feature-img img {
+    height: 90%;
+    width: 700px;
+    object-fit: cover;
+
+}
+
+.ten-years h2 {
     font-size: 4rem;
     font-weight: 700;
     margin: 0px;
     padding-top: 40px;
 }
+
 .ten-years p {
     padding: 1.5rem;
     padding-bottom: 40px;
-    
+
 }
 
 .card-container {
@@ -185,7 +197,7 @@ main {
 }
 
 .Facts-div {
-    padding: 0px 240px;
+    padding: 0px 100px;
 }
 
 .Sponspors {
@@ -203,6 +215,16 @@ main {
 .Sponspors-img img {
     width: 167px;
     height: 50px;
+}
+
+.footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    height: 80px;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 25px;
 }
 
 
@@ -241,6 +263,19 @@ main {
 
     .Sponspors-img {
         flex-direction: column;
+    }
+
+    .feature-box {
+        flex-direction: column;
+    }
+
+    .feature-img img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .feature-box {
+        padding: 0px 0px;
     }
 
 }
