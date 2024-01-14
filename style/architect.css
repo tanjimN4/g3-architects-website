@@ -77,7 +77,7 @@ main {
 .teams-container {
     display: flex;
     align-items: center;
-    padding: 0 240px;
+    padding: 0 100px;
 
 }
 
@@ -109,6 +109,48 @@ main {
 .Features {
     color: #FF900E;
     font-weight: 700;
+}
+
+.feature-box {
+    display: flex;
+    margin-top: 150px;
+    gap: 100px;
+    padding: 0px 100px;
+}
+
+.feature-box .nav-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .card-box {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+.ten-years {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.ten-years h2{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0px;
+    padding-top: 40px;
+}
+.ten-years p {
+    padding: 1.5rem;
+    padding-bottom: 40px;
+    
 }
 
 .card-container {
